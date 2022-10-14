@@ -83,12 +83,10 @@ $("#image-selector").change(function () {
 // == Loads the model and makes a prediction on the default image. == //
 let model;
 (async function () {
-  model = await tf.loadModel(
-    "https://ahcstroke.herokuapp.com/model_3/model.json"
-  );
+  model = await tf.loadModel("http://brain.test.woza.work/model_3/model.json");
   $("#selected-image").attr(
     "src",
-    "https://ahcstroke.herokuapp.com/assets/ich.jpg"
+    "http://brain.test.woza.work/assets/ich.jpg"
   );
 
   // Hide the model loading spinner
