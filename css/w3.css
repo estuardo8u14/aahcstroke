@@ -1669,7 +1669,7 @@ input[type="radio"].w3-radio:disabled + .w3-validate {
 .w3-dark-grey,
 .w3-hover-dark-grey:hover {
   color: #fff !important;
-  background-color: #616161 !important;
+  background-color: #2c8b4c !important;
 }
 .w3-pale-red,
 .w3-hover-pale-red:hover {
@@ -1897,7 +1897,7 @@ input[type="radio"].w3-radio:disabled + .w3-validate {
 }
 .w3-border-dark-grey,
 .w3-hover-border-dark-grey:hover {
-  border-color: #616161 !important;
+  border-color: #a3dff1 !important;
 }
 .w3-border-pale-red,
 .w3-hover-border-pale-red:hover {
